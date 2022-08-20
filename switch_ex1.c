@@ -14,7 +14,8 @@ int main(  ) {
      case 10:
      case 12:
       {
-        printf("31")
+        printf("31");
+        break;
       
     }
      case 4:
@@ -22,10 +23,14 @@ int main(  ) {
      case 9:
      case 11:
       {
-        printf("30")
+        printf("30");
+        break;
+          
     }
     case 2:
       {
-        printf("28")
+        printf("28");
+        }
+      }
     return 0;
 }
