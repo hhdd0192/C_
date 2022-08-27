@@ -1,7 +1,7 @@
 #중첩 반복문  
 
 
-'''c
+```c
 #include <stdio.h>
 int main(void) {
   int i = 1;
@@ -15,4 +15,4 @@ int main(void) {
     ++i;
   }while(i<6);
 }
-'''
+```
