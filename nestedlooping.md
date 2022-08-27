@@ -45,3 +45,18 @@ int main(void) {
   }
 }
 ```
+
+```c
+#include <stdio.h>
+
+int main(void) {
+  int i,j,a; scanf("%d", &i);
+  for(a = 1;a<=i;a++)
+    {
+      for(j = 1; j <= a; j++){
+        printf("%d ", j);
+      }
+      printf("\n");
+    }
+}
+```
