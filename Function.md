@@ -1,3 +1,5 @@
+
+매개변수 O   반환값 X
 ```c
 #include <stdio.h>
 
@@ -17,7 +19,7 @@ int main(void){
 }
 ```
 
-
+매개변수 O   반환값 O
 ```c
 #include <stdio.h>
 
