@@ -79,3 +79,23 @@ int main(void){
 ```
 
 
+
+약수 출력 함수
+```c
+#include <stdio.h>
+
+int Divisor(int n){
+  for(int i = 1;i<=n;i++){
+    if(n % i == 0)
+    {
+      printf("%d\n", i);
+    }
+  }
+}
+
+int main(void){
+  int n ;scanf("%d", &n);
+  int a = Divisor(n);
+  printf("%d", a);
+}
+```
