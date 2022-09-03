@@ -58,3 +58,24 @@ int main(void){
   return 0;
 }
 ```
+
+
+매개변수 X 변환값 X
+```c
+#include <stdio.h>
+
+int Sum(){
+  int n,sum; scanf("%d", &n);
+  for(int i = 1; i <= n; i++){
+    sum += i;
+  }
+  printf("%d", sum);
+}
+
+int main(void){
+  Sum();
+  return 0;
+}
+```
+
+
