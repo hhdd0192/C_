@@ -95,7 +95,6 @@ int Divisor(int n){
 
 int main(void){
   int n ;scanf("%d", &n);
-  int a = Divisor(n);
-  printf("%d", a);
+  Divisor(n);
 }
 ```
