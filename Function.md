@@ -98,3 +98,24 @@ int main(void){
   Divisor(n);
 }
 ```
+
+
+정수 순서 뒤집기
+```c
+#include <stdio.h>
+
+int reverse(int n){
+  int res = 0;
+  while(n){
+    printf("%d", n % 10);
+    n /= 10;
+  }
+  return res;
+}
+
+int main(void){
+  int a; scanf("%d", &a); 
+  reverse(a);
+}
+
+```
