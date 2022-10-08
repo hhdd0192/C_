@@ -95,3 +95,22 @@ int main(void) {
   }
 }
 ```
+
+
+
+```c
+#include <stdio.h>
+
+int main(void) {
+  int ar1[3][5] = {{23,22,27,21,24},
+  {21,22,25,24,23},
+  {20,23,22,21,24}};
+
+  int i,a;
+
+  scanf("%d", &a);
+  for(i=0;i<5;i++){
+    printf("%d ", ar1[a][i]);
+  }
+}
+```
