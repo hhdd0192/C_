@@ -52,3 +52,31 @@ int main(void) {
   
 }
 ```
+
+```c
+#include <stdio.h>
+
+  struct Address{
+  char name[10];
+  char phone[20];
+  char home[50];
+  };
+                                        
+int main(void) {
+  struct Address man1;
+  strcpy(man1.name , "a");
+  strcpy(man1.phone , "010-3123-4512");
+  strcpy(man1.home , "경기도 용인시 처인구");
+  
+  struct Address man2 = {"b", "010-1234-5678","경기도 용인시 기흥구"};
+
+  struct Address man3;
+  scanf("%s %s", man3.name, man3.phone);
+  gets(man3.home);
+
+  printf("%s %s %s\n", man1.name, man1.phone,man1.home);
+  printf("%s %s %s\n", man2.name, man2.phone,man2.home);
+  printf("%s %s %s\n", man3.name, man3.phone,man3.home);
+
+}
+```
