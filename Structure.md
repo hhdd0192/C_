@@ -20,3 +20,35 @@ int main(void) {
   printf("p2의 좌표( %d, %d)\n", p2.x, p2.y);
 }
 ```
+
+
+맴버의 값을 입력 받아 출력
+```c
+#include <stdio.h>
+
+  struct Person {
+  char name[10];
+  int age;
+  double height;
+  };
+                                        
+int main(void) {
+  struct Person m1;
+  struct Person m2 = {"허난설현" ,13,159.9};
+  struct Person m3;
+
+  scanf("%s %d %lf", m3.name, &m3.age, &m3.height);
+  
+  
+  strcpy(m1.name, "허균");
+  m1.age = 10;
+  m1.height = 168.34;
+
+  printf("%s %d %.2f\n",m1.name, m1.age,m1.height);
+  printf("%s %d %.1f\n",m2.name, m2.age,m2.height);
+  printf("%s %d %.1f\n",m3.name, m3.age,m3.height);
+
+
+  
+}
+```
