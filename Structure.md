@@ -80,3 +80,33 @@ int main(void) {
 
 }
 ```
+
+
+구조체 안에 구조체 
+```c
+#include <stdio.h>
+
+  struct Coordi{
+  int x;
+  int y;
+  };
+  struct  Circle {
+  struct Coordi cen;
+  double r;
+  };                              
+int main(void) {
+  struct Circle c1;
+  struct Circle c2 = {{4,5}, 12.4};
+  struct Circle c3;
+  c1.cen.x = 5;
+  c1.cen.y = 10;
+  c1.r =4.0;
+  scanf("%d %d %lf",&c3.cen.x, &c3.cen.y, &c3.r);
+  printf("%d %d %.1f\n", c1.cen.x, c1.cen.y, c1.r);
+  printf("%d %d %.1f\n", c2.cen.x, c2.cen.y, c2.r);
+  printf("%d %d %.1f\n", c3.cen.x, c3.cen.y, c3.r);
+
+  return 0;
+
+}
+```
