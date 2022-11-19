@@ -110,7 +110,7 @@ void delay(int n)
 	clock_t start = clock();
 	while (clock() - start < n);
 }
-
+```
 
 ```c
 #include <stdio.h>
@@ -180,6 +180,8 @@ int main()
 	
 	return 0;
 }
+```
+
 ```c
 #include <stdio.h>
 #include <conio.h>
