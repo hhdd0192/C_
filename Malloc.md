@@ -73,3 +73,18 @@ int main(void) {
 
 ```
 
+
+```c
+#include <stdio.h>
+
+int main(void) {
+  float *i = (float *)malloc(sizeof(float));
+  char *j = (char *)malloc(sizeof(char));
+
+  *i = 3.141592;
+  *j = 'A';
+
+  printf("%f %c\n", *i, *j);
+}
+
+```
