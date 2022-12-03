@@ -148,7 +148,7 @@ void Move_LeftRight_Key(char key, int *x1,int *y1)
 }
 ```
 
-
+특정한 모양 옮기기(복사x)
 ```c
 #include <stdio.h>
 #include <windows.h>
