@@ -36,6 +36,8 @@ int main()
 ```
 
 
+
+방향키대로 움직이는 @(복사O)
 ```c
 #include <stdio.h>
 #include <conio.h>
@@ -88,6 +90,8 @@ void Move_LeftRight_Key(char key, int *x1,int *y1)
 }
 ```
 
+
+방향키대로 움직이는 @(복사X)
 
 ```c
 #include <stdio.h>
